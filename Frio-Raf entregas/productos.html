@@ -3,71 +3,90 @@
 
 <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>FríoRaf - Refrigeración Industrial</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;500;800&family=Roboto:ital,wght@0,100;0,700;1,400&display=swap"
+    rel="stylesheet">
+
+  <!--Link de CSS-->
+  <link rel="stylesheet" href="estilos/estilos.css" />
 </head>
 
 <body>
-    <header>
-        <div><img src="imagenes/logoprincipal.png" alt="logo-principal" /></div>
-        <a href="index.html">Home</a>
-        <a href="empresa.html">Empresa</a>
-        <a href="productos.html">Productos</a>
-        <a href="serviciospostventas.html">Servicio Post-Venta</a>
-        <a href="nosotros.html">Nosotros</a>
-        <a href="contacto.html">Contacto</a>
-        <a href="cargatucv.html">Cargá tu CV</a>
+    <header class="menu">
+      <nav class="menu_nav">
+        <div class="menu_div">
+          <div class="imag"><img src="imagenes/logoprincipal.png" alt="FrioRaf - Refrigeración Industrial" width="250" />
+          </div>
+          <ul class="menu1">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="empresa.html">Empresa</a></li>
+            <li><a href="productos.html">Productos</a></li>
+            <li><a href="serviciospostventas.html">Servicio Post-Venta</a></li>
+            <li><a href="nosotros.html">Nosotros</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a class="cc" href="cargatucv.html">Cargá tu CV</a></li>
+          </ul>
+        </div>
+      </nav>
     </header>
     <main>
-        <h1>Productos</h1>
+      <h1 class="prod">Productos</h1>
+      <div class="prod2">
+        <p>Intercambiadores de calor</p>
         <div>
-            <p>Intercambiadores de calor</p>
-            <div>
-                <img src="imagenes/Evap.jpg" alt="Intercambiador de calor" />
-            </div>
-            <p>Condensadores</p>
-            <div>
-                <img src="imagenes/Condensador.jpg" alt="Condensador evaporativo" />
-            </div>
-            <p>Recipientes sometidos a presión</p>
-            <div>
-                <img src="imagenes/Separador.jpg" alt="Separador de líquido" />
-            </div>
-            <p>Compresores</p>
-            <div>
-                <img src="imagenes/compresor.jpg" alt="Compresor a tornillos" />
-            </div>
-            <p>Accesorios - Cuadro de Válvulas</p>
-            <div>
-                <img src="imagenes/cuadro.jpg" alt="Cuadro de Válvulas" />
-            </div>
+          <img class="icon" src="imagenes/Evap.jpg" alt="Evaporador" />
         </div>
+        <p>Condensadores</p>
+        <div>
+          <img class="icon"
+            src="imagenes/Condensador.jpg" alt="Condensador evaporativo" />
+        </div>
+        <p>Recipientes sometidos a presión</p>
+        <div>
+          <img class="icon" src="imagenes/Recibidor.jpg" alt="Recibidor de líquido" />
+        </div>
+        <p>Compresores</p>
+        <div>
+          <img class="icon" src="imagenes/compresor.jpg" alt="Compresor a tornillos" />
+        </div>
+        <p>Accesorios - Cuadro de Válvulas</p>
+        <div>
+          <img class="icon" src="imagenes/cuadro.jpg" alt="Cuadro de válvulas" />
+        </div>
+      </div>
     </main>
-    <footer>
-        <div><img src="imagenes/logo-footer.png" alt="logo_frioraf-2x" /></div>
-        <div>
-            <p>Mapa de Sítio</p>
-            <ul>
-                <li><a href="#">Empresa</a></li>
-                <li><a href="#">Productos</a></li>
-                <li><a href="#">Servicios Post-Ventas</a></li>
-                <li><a href="#">Nosotros</a></li>
-                <li><a href="#">Contacto</a></li>
-            </ul>
+    <footer class="footer_index">
+      <div><img class="logofr" src="imagenes/logo-footer.png" alt="logofrioraf" /></div>
+      <div class="hijo">
+        <div class="footer_mapa">
+          <ul class="lista1">
+            <span class="mapasitio">Mapa de Sitio</span>
+            <li><a class="colum1" href="#">Empresa</a></li>
+            <li><a class="colum1" href="#">Productos</a></li>
+            <li><a class="colum1" href="#">Servicios Post-Ventas</a></li>
+            <li><a class="colum1" href="#">Nosotros</a></li>
+            <li><a class="colum1" href="#">Contacto</a></li>
+          </ul>
         </div>
-
-        <div>
-            <p>Contactanos</p>
-            <ul>
-                <div>
-                    <li><a href="#">Lisandro de la Torre 876</a></li>
-                    <li><a href="#">+54 3492 423754</a></li>
-                    <li><a href="#">+54 3492 445876</a></li>
-                    <li><a href="#">info@frioraf.com.ar</a></li>
-                </div>
-            </ul>
+  
+        <div class="footer_contacto">
+          <ul class="lista2">
+            <div>
+              <span class="contactanos">Contactanos</span>
+              <li><a class="colum2" href="#">Lisandro de la Torre 876</a></li>
+              <li><a class="colum2" href="#">+54 3492 423754</a></li>
+              <li><a class="colum2" href="#">+54 3492 445876</a></li>
+              <li><a class="colum2" href="#">info@frioraf.com.ar</a></li>
+            </div>
+          </ul>
         </div>
+      </div>
     </footer>
-</body>
+  </body>
 
 
 
