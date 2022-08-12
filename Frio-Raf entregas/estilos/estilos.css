@@ -25,7 +25,7 @@
 
 }
 
-.menu1:hover a {
+.menu1:hover {
     color: steelblue;
 }
 .imag {
@@ -34,7 +34,6 @@
 }
 
 .seccion1 {
-    width: 100%;
     background-image: url(http://frioraf.com/wp-content/uploads/2020/07/banner1920x700_4.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -223,7 +222,7 @@ body {
 
 .logofr {
     width: 100%;
-    transform: rotateY(50deg);
+    
 }
 
 .footer_index {

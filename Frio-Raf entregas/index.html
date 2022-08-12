@@ -14,8 +14,14 @@
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;500;800&family=Roboto:ital,wght@0,100;0,700;1,400&display=swap"
         rel="stylesheet">
 
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
     <!--Link de CSS-->
     <link rel="stylesheet" href="estilos/estilos.css" />
+
+
 </head>
 
 <body>
@@ -26,13 +32,13 @@
                         width="250" />
                 </div>
                 <ul class="menu1">
-                    <li><a href="index.html"></a></li>
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html"></a></li>
                     <li><a href="empresa.html">Empresa</a></li>
                     <li><a href="productos.html">Productos</a></li>
                     <li><a href="serviciospostventas.html">Servicio Post-Venta</a></li>
                     <li><a href="nosotros.html">Nosotros</a></li>
                     <li><a href="contacto.html">Contacto</a></li>
-                    <li><a class="cc" href="cargatucv.html">Cargá tu CV</a></li>
+                    <li><a class="badge bg-danger " href="cargatucv.html">Cargá tu CV</a></li>
                 </ul>
             </div>
         </nav>
@@ -51,18 +57,18 @@
 
             <h3 class="ps">
                 <div class="p1"><img src="imagenes/iconos-01.png" alt="iconos-01" width="100" />
-                    <p>Frio-Raf es una empresa de refrigeración industrial argentina, situada en la ciudad de Rafaela,
+                    <p class="fw-bold">Frio-Raf es una empresa de refrigeración industrial argentina, situada en la ciudad de Rafaela,
                         Santa Fe.
                     </p>
                 </div>
                 <div class="p2"><img src="imagenes/iconos-02.png" alt="iconos-02" width="100" />
-                    <p>Trabajamos en equipo participando activamente en un ambiente adecuado y con el objetivo de
+                    <p class="fw-bold">Trabajamos en equipo participando activamente en un ambiente adecuado y con el objetivo de
                         consolidarnos
                         como
                         grupo logrando el éxito.</p>
                 </div>
                 <div class="p3"><img src="imagenes/iconos-03.png" alt="iconos-03" width="100" />
-                    <p>Estamos orgullosos porque competimos con empresas líderes a nivel internacional y porque gran
+                    <p class="fw-bold">Estamos orgullosos porque competimos con empresas líderes a nivel internacional y porque gran
                         parte de
                         nuestra producción se destina al mercado externo.</p>
                 </div>
@@ -71,10 +77,10 @@
         </section>
 
         <section class="seccion3">
-            <h4 class="titulo2">Conozca nuestros productos</h4>
+            <h4 class="text-center">Conozca nuestros productos</h4>
             <div class="fotos">
                 <div><img src="imagenes/Evap.jpg" alt="Intercambiador de Calor" width="300" /></div>
-                <p class="par" class="par-1">Intercambiadores de calor</p>
+                <p class="rounded">Intercambiadores de calor</p>
                 <div><img src="imagenes/Condensador.jpg" alt="Condensador Evaporativo" width="300" /></div>
                 <p class="par" class="par-2">Condensadores</p>
                 <div><img src="imagenes/Separador.jpg" alt="Unidad de Recirculado" width="300" /></div>
@@ -84,7 +90,7 @@
                 <div><img src="imagenes/Recibidor.jpg" alt="Recibidor de Líquido" width="300" /></div>
                 <p class="par" class="par-5">Recibidor de líquido</p>
                 <div><img src="imagenes/compresor.jpg" alt="Compresor a tornillos" width="300" /></div>
-                <p class="par" class="par-6">Compresor</p>
+                <p class="par" class="par-6">Compresor</    p>
             </div>
         </section>
     </main>
@@ -97,7 +103,7 @@
     </div>
 
     <footer class="footer_index">
-        <div><img class="logofr" src="imagenes/logo-footer.png" alt="logofrioraf" /></div>
+        <div><img class="logofr" class="rounded" src="imagenes/logo-footer.png" alt="logofrioraf" /></div>
         <div class="hijo">
             <div class="footer_mapa">
                 <ul class="lista1">
@@ -123,6 +129,12 @@
             </div>
         </div>
     </footer>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
+    </script>
+
 </body>
 
 </html>
