@@ -1,6 +1,6 @@
 /* ESTILOS INDEX */
 
-.menu {
+/*.menu {
     background-color: whitesmoke;
     background-image: linear-gradient(gray, white);
 }
@@ -118,7 +118,7 @@ a {
     font-weight: 500;
 }
 
-body {
+/*body {
     background-color: whitesmoke;
     padding: 0;
     margin: 0;
@@ -180,7 +180,7 @@ body {
 
 }
 
-.mapa {
+/*.mapa {
     color: dodgerblue;
     font-size: 16px;
     font-family: 'Roboto', sans-serif;

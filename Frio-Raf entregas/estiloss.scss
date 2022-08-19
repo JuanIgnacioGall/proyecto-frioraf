@@ -1,0 +1,259 @@
+body {
+    background-color: whitesmoke;
+    padding: 0;
+    margin: 0;
+
+    mapa {
+        color: dodgerblue;
+        font-size: 16px;
+        font-family: 'Roboto', sans-serif; 
+    }
+
+    .mapa1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        margin-bottom: 40px;
+        width: 100%;
+    
+    }
+    .menu {
+        background-color: whitesmoke;
+        background-image: linear-gradient(gray, white);
+    }
+    
+    .menu_div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .menu1 {
+        width: 100%;
+        list-style: none;
+        display: flex;
+        flex: auto;
+        justify-content: center;
+        font-size: 17px;
+    }
+    
+    .menu1 a {
+        font-weight: 800px;
+    
+    }
+    
+    .menu1:hover {
+        color: steelblue;
+    }
+    .imag {
+        padding: 8px;
+        margin-left: 50px;
+    }
+    
+    .seccion1 {
+        background-image: url(http://frioraf.com/wp-content/uploads/2020/07/banner1920x700_4.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        border: 1px solid white;
+        display: flex;
+        justify-content: center; 
+    }
+    
+    .seccion1_1 {
+        margin-top: 180px;
+        margin-bottom: 180px;
+        
+    }
+    
+    
+    .seccion2 {
+        padding: 10px;
+        margin-left: 0;
+    }
+    
+    .seccion3 {
+        font-family: 'Roboto', sans-serif;
+        color:grey;
+    
+    }
+    
+    .titulo2 {
+        text-align: center;
+    }
+    
+    .fotos {
+        text-align: center;
+        width: 99%;
+        
+    }
+    
+    h1 {
+        color: rgb(255, 255, 255);
+        text-align: center;
+        font-size: 26px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 600;
+        text-shadow: 0 0 2px gray;
+        
+    
+    }
+    
+    
+    h2 {
+        color: rgb(255, 255, 255);
+        text-align: center;
+        font-size: 32px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 900;
+        text-decoration: solid;
+        text-shadow: 0 0 2px gray;
+        
+    }
+    
+    
+    h4 {
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+        color: steelblue;
+        text-decoration: none;
+        font-weight: 400;
+    
+    }
+    
+    .cc {
+        background-color: rgb(234, 110, 39);
+        color: azure;
+        padding: 5px;
+        text-decoration: none;
+    }
+    
+    a {
+        text-decoration: none;
+        margin-right: 15px;
+        font-family: 'Roboto', sans-serif;
+        color: black;
+        font-weight: 500;
+    }
+
+    .ps {
+        display: flex;
+        justify-content: space-evenly;
+        column-gap: 30px;
+        row-gap: 90px;
+        font-size: 15px;
+        width: 100%;
+    }
+    
+    .p1 {
+        text-align: center;
+        color: #333333;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        border: 1px solid white;
+        flex: 1;
+        padding: 20px;
+        background-color: white;
+        margin-left: 20px;
+    
+    }
+    
+    .p2 {
+        text-align: center;
+        color: #333333;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        border: 1px solid white;
+        flex: 1;
+        padding: 20px;
+        background-color: white;
+    }
+    
+    .p3 {
+        text-align: center;
+        color: #333333;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        border: 1px solid white;
+        flex: 1;
+        padding: 20px;
+        background-color: white;
+        margin-right: 20px;
+    }
+    
+    .mapa1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        margin-bottom: 40px;
+        width: 100%;
+    
+    }
+
+    .contact {
+        color: dodgerblue;
+        font-size: 16px;
+        font-family: 'Roboto', sans-serif;
+    
+    
+    }
+    
+    .lista1 {
+        list-style: none;
+    
+    }
+    
+    .colum1 {
+        color: gray;
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        font-weight: 100;
+    
+    }
+    
+    .lista2 {
+        list-style: none;
+        margin-right: 50px;
+    
+    }
+    
+    .colum2 {
+        color: gray;
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        font-weight: 100;
+    }
+    
+    .logofr {
+        width: 100%;
+        
+    }
+    
+    .footer_index {
+        display: flex;
+    
+    }
+    
+    .hijo {
+        display: flex;
+        flex: 1;
+        justify-content: flex-end;
+    }
+    
+    .mapasitio {
+        font-size: 18px;
+        font-family: 'Roboto', sans-serif;
+        padding-bottom: 10px;
+        font-weight: 500;
+        color: rgb(70, 148, 226);
+    }
+    
+    .contactanos {
+        font-size: 18px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        color: rgb(70, 148, 226);
+    }
+
+}
